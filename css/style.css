@@ -1,0 +1,196 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8em;
+}
+
+/* Utility Classes */
+.btn {
+    display: inline-block;
+    background-color: #622A2D;
+    color: #fff;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3E3E41;
+    color: #fff;
+    transition-duration: 1.2s;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.text-primary {
+    color: rgb(128, 64, 66);
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Navbar */
+#navbar {
+    background-color: #3E3E41;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar .logo {
+    float: left;
+    width: 68px;
+    height: 68px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#navbar ul li a:hover,
+#navbar ul li .active {
+    background-color: #444;
+    color: #f0a559;
+}
+
+/*Showcase */
+#showcase {
+    background: url(/img/art.jpg) no-repeat center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 47px;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/* Art middle Style */
+#art-info {
+    margin: 10px;
+    height: 400px;
+}
+
+#art-info .art-image {
+    float: left;
+    width: 33.3%;
+    background: url(/img/art2.jpg) no-repeat center/cover;
+    min-height: 100%;
+}
+
+#art-info .art-description {
+    padding-top: 120px;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+#art-info .art-description .text-primary {
+    font-size: 30px;
+}
+
+#art-info .art-description p {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#art-info .art-description .btn {
+    background-color: black;
+    margin-top: 12px;
+}
+
+#art-info .art-description .btn:hover {
+    background-color: rgb(110, 43, 43);
+    font-size: 18px;
+    transition-duration: 0.5s;
+}
+
+#art-info .art-last-image {
+    background: url(/img/art1.jpg) no-repeat center/cover;
+    float: right;
+    width: 32.8%;
+    height: 100%;
+}
+
+/* Footer */
+#main-footer {
+    background-color: rgb(34, 34, 36);
+    text-align: center;
+}
+
+#main-footer p {
+    padding-top: 20px;
+    margin: 0;
+    font-size: 20px;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#main-footer i {
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#main-footer i:hover {
+    color: #3b1a96;
+    transition-duration: 1.2s;
+    cursor: pointer;
+}
