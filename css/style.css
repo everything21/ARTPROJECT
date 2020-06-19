@@ -142,7 +142,7 @@ p {
 }
 
 #art-info .art-description .text-primary {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #art-info .art-description p {
@@ -193,4 +193,80 @@ p {
     color: #3b1a96;
     transition-duration: 1.2s;
     cursor: pointer;
+}
+
+@media(max-width: 768px) {
+
+    /* Navbar */
+    #navbar .logo {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #navbar ul,
+    #navbar ul li {
+        float: none;
+    }
+
+
+    #navbar ul li a {
+        border-bottom: 2px solid rgb(128, 64, 66);
+        ;
+    }
+
+    #navbar ul li:last-child a {
+        border-bottom: none;
+    }
+
+    /* Showcase */
+    #showcase {
+        height: 100%;
+    }
+
+    #showcase .showcase-content {
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+
+    .showcase-content h1 {
+        line-height: 3rem;
+    }
+
+    #showcase .lead {
+        font-size: 1.1rem;
+    }
+
+    #showcase .btn {
+        padding-bottom: 12px;
+    }
+
+    #art-info {
+        margin: 10px 0 10px 0;
+    }
+
+    #art-info .art-image,
+    #art-info .art-last-image {
+        display: none;
+    }
+
+    #art-info .art-description h1,
+    p {
+        color: #f4f4f4;
+    }
+
+
+    #art-info .art-description .text-primary {
+        font-size: 50px;
+        color: #f4f4f4;
+    }
+
+    #art-info .art-description {
+        background: url(/img/art2.jpg) no-repeat center center/cover;
+        width: 100%;
+    }
+
+    #main-footer p {
+        font-size: 20px;
+    }
 }
