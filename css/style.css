@@ -22,12 +22,15 @@ body {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    transition-property: background;
+    transition-duration: 1.2s;
+    transition-timing-function: ease-in-out;
 }
 
 .btn:hover {
     background-color: #3E3E41;
     color: #fff;
-    transition-duration: 1.2s;
+    
 }
 
 .lead {
