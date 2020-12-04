@@ -105,7 +105,7 @@ p {
 
 /*Showcase */
 #showcase {
-    background: url(/img/art.jpg) no-repeat center/cover;
+    background: url(../img/art.jpg) no-repeat center/cover;
     height: 600px;
 }
 
@@ -133,7 +133,7 @@ p {
 #art-info .art-image {
     float: left;
     width: 33.3%;
-    background: url(/img/art2.jpg) no-repeat center/cover;
+    background: url(../img/art2.jpg) no-repeat center/cover;
     min-height: 100%;
 }
 
@@ -165,7 +165,7 @@ p {
 }
 
 #art-info .art-last-image {
-    background: url(/img/art1.jpg) no-repeat center/cover;
+    background: url(../img/art1.jpg) no-repeat center/cover;
     float: right;
     width: 32.8%;
     height: 100%;
@@ -265,7 +265,7 @@ p {
     }
 
     #art-info .art-description {
-        background: url(/img/art2.jpg) no-repeat center center/cover;
+        background: url(../img/art2.jpg) no-repeat center center/cover;
         width: 100%;
     }
 
